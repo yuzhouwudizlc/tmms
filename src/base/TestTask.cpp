@@ -1,5 +1,6 @@
 #include "TaskMgr.h"
 #include "Task.h"
+#include "TTime.h"
 #include <iostream>
 #include <memory>
 #include <thread>  // 添加头文件
@@ -8,7 +9,7 @@ using namespace tmms::base;
 void TestTask(){
     TaskPtr task1 = std::make_shared<Task>([](const TaskPtr &task)
         {
-            std::cout<<"task1 interval:"<<1000<<std::endl;
+            std::cout<<"task1 interval:"<<1000<<"now:"<<TTime::NowMS()<<std::endl;
         },
         1000
     );

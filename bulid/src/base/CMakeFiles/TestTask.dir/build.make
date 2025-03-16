@@ -83,17 +83,65 @@ src/base/CMakeFiles/TestTask.dir/TestTask.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TestTask.dir/TestTask.cpp.s"
 	cd /home/go1116/Desktop/tmms/bulid/src/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/go1116/Desktop/tmms/src/base/TestTask.cpp -o CMakeFiles/TestTask.dir/TestTask.cpp.s
 
+src/base/CMakeFiles/TestTask.dir/Task.cpp.o: src/base/CMakeFiles/TestTask.dir/flags.make
+src/base/CMakeFiles/TestTask.dir/Task.cpp.o: ../src/base/Task.cpp
+src/base/CMakeFiles/TestTask.dir/Task.cpp.o: src/base/CMakeFiles/TestTask.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/go1116/Desktop/tmms/bulid/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/base/CMakeFiles/TestTask.dir/Task.cpp.o"
+	cd /home/go1116/Desktop/tmms/bulid/src/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/base/CMakeFiles/TestTask.dir/Task.cpp.o -MF CMakeFiles/TestTask.dir/Task.cpp.o.d -o CMakeFiles/TestTask.dir/Task.cpp.o -c /home/go1116/Desktop/tmms/src/base/Task.cpp
+
+src/base/CMakeFiles/TestTask.dir/Task.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TestTask.dir/Task.cpp.i"
+	cd /home/go1116/Desktop/tmms/bulid/src/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/go1116/Desktop/tmms/src/base/Task.cpp > CMakeFiles/TestTask.dir/Task.cpp.i
+
+src/base/CMakeFiles/TestTask.dir/Task.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TestTask.dir/Task.cpp.s"
+	cd /home/go1116/Desktop/tmms/bulid/src/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/go1116/Desktop/tmms/src/base/Task.cpp -o CMakeFiles/TestTask.dir/Task.cpp.s
+
+src/base/CMakeFiles/TestTask.dir/TaskMgr.cpp.o: src/base/CMakeFiles/TestTask.dir/flags.make
+src/base/CMakeFiles/TestTask.dir/TaskMgr.cpp.o: ../src/base/TaskMgr.cpp
+src/base/CMakeFiles/TestTask.dir/TaskMgr.cpp.o: src/base/CMakeFiles/TestTask.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/go1116/Desktop/tmms/bulid/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/base/CMakeFiles/TestTask.dir/TaskMgr.cpp.o"
+	cd /home/go1116/Desktop/tmms/bulid/src/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/base/CMakeFiles/TestTask.dir/TaskMgr.cpp.o -MF CMakeFiles/TestTask.dir/TaskMgr.cpp.o.d -o CMakeFiles/TestTask.dir/TaskMgr.cpp.o -c /home/go1116/Desktop/tmms/src/base/TaskMgr.cpp
+
+src/base/CMakeFiles/TestTask.dir/TaskMgr.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TestTask.dir/TaskMgr.cpp.i"
+	cd /home/go1116/Desktop/tmms/bulid/src/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/go1116/Desktop/tmms/src/base/TaskMgr.cpp > CMakeFiles/TestTask.dir/TaskMgr.cpp.i
+
+src/base/CMakeFiles/TestTask.dir/TaskMgr.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TestTask.dir/TaskMgr.cpp.s"
+	cd /home/go1116/Desktop/tmms/bulid/src/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/go1116/Desktop/tmms/src/base/TaskMgr.cpp -o CMakeFiles/TestTask.dir/TaskMgr.cpp.s
+
+src/base/CMakeFiles/TestTask.dir/TTime.cpp.o: src/base/CMakeFiles/TestTask.dir/flags.make
+src/base/CMakeFiles/TestTask.dir/TTime.cpp.o: ../src/base/TTime.cpp
+src/base/CMakeFiles/TestTask.dir/TTime.cpp.o: src/base/CMakeFiles/TestTask.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/go1116/Desktop/tmms/bulid/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/base/CMakeFiles/TestTask.dir/TTime.cpp.o"
+	cd /home/go1116/Desktop/tmms/bulid/src/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/base/CMakeFiles/TestTask.dir/TTime.cpp.o -MF CMakeFiles/TestTask.dir/TTime.cpp.o.d -o CMakeFiles/TestTask.dir/TTime.cpp.o -c /home/go1116/Desktop/tmms/src/base/TTime.cpp
+
+src/base/CMakeFiles/TestTask.dir/TTime.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TestTask.dir/TTime.cpp.i"
+	cd /home/go1116/Desktop/tmms/bulid/src/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/go1116/Desktop/tmms/src/base/TTime.cpp > CMakeFiles/TestTask.dir/TTime.cpp.i
+
+src/base/CMakeFiles/TestTask.dir/TTime.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TestTask.dir/TTime.cpp.s"
+	cd /home/go1116/Desktop/tmms/bulid/src/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/go1116/Desktop/tmms/src/base/TTime.cpp -o CMakeFiles/TestTask.dir/TTime.cpp.s
+
 # Object files for target TestTask
 TestTask_OBJECTS = \
-"CMakeFiles/TestTask.dir/TestTask.cpp.o"
+"CMakeFiles/TestTask.dir/TestTask.cpp.o" \
+"CMakeFiles/TestTask.dir/Task.cpp.o" \
+"CMakeFiles/TestTask.dir/TaskMgr.cpp.o" \
+"CMakeFiles/TestTask.dir/TTime.cpp.o"
 
 # External object files for target TestTask
 TestTask_EXTERNAL_OBJECTS =
 
 src/base/TestTask: src/base/CMakeFiles/TestTask.dir/TestTask.cpp.o
+src/base/TestTask: src/base/CMakeFiles/TestTask.dir/Task.cpp.o
+src/base/TestTask: src/base/CMakeFiles/TestTask.dir/TaskMgr.cpp.o
+src/base/TestTask: src/base/CMakeFiles/TestTask.dir/TTime.cpp.o
 src/base/TestTask: src/base/CMakeFiles/TestTask.dir/build.make
 src/base/TestTask: src/base/CMakeFiles/TestTask.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/go1116/Desktop/tmms/bulid/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable TestTask"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/go1116/Desktop/tmms/bulid/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable TestTask"
 	cd /home/go1116/Desktop/tmms/bulid/src/base && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/TestTask.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

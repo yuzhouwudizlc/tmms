@@ -233,6 +233,7 @@ TTime.o: TTime.cpp.o
 # target to build an object file
 TTime.cpp.o:
 	cd /home/go1116/Desktop/tmms/bulid && $(MAKE) $(MAKESILENT) -f src/base/CMakeFiles/base.dir/build.make src/base/CMakeFiles/base.dir/TTime.cpp.o
+	cd /home/go1116/Desktop/tmms/bulid && $(MAKE) $(MAKESILENT) -f src/base/CMakeFiles/TestTask.dir/build.make src/base/CMakeFiles/TestTask.dir/TTime.cpp.o
 .PHONY : TTime.cpp.o
 
 TTime.i: TTime.cpp.i
@@ -241,6 +242,7 @@ TTime.i: TTime.cpp.i
 # target to preprocess a source file
 TTime.cpp.i:
 	cd /home/go1116/Desktop/tmms/bulid && $(MAKE) $(MAKESILENT) -f src/base/CMakeFiles/base.dir/build.make src/base/CMakeFiles/base.dir/TTime.cpp.i
+	cd /home/go1116/Desktop/tmms/bulid && $(MAKE) $(MAKESILENT) -f src/base/CMakeFiles/TestTask.dir/build.make src/base/CMakeFiles/TestTask.dir/TTime.cpp.i
 .PHONY : TTime.cpp.i
 
 TTime.s: TTime.cpp.s
@@ -249,6 +251,7 @@ TTime.s: TTime.cpp.s
 # target to generate assembly for a file
 TTime.cpp.s:
 	cd /home/go1116/Desktop/tmms/bulid && $(MAKE) $(MAKESILENT) -f src/base/CMakeFiles/base.dir/build.make src/base/CMakeFiles/base.dir/TTime.cpp.s
+	cd /home/go1116/Desktop/tmms/bulid && $(MAKE) $(MAKESILENT) -f src/base/CMakeFiles/TestTask.dir/build.make src/base/CMakeFiles/TestTask.dir/TTime.cpp.s
 .PHONY : TTime.cpp.s
 
 Task.o: Task.cpp.o
@@ -257,6 +260,7 @@ Task.o: Task.cpp.o
 # target to build an object file
 Task.cpp.o:
 	cd /home/go1116/Desktop/tmms/bulid && $(MAKE) $(MAKESILENT) -f src/base/CMakeFiles/base.dir/build.make src/base/CMakeFiles/base.dir/Task.cpp.o
+	cd /home/go1116/Desktop/tmms/bulid && $(MAKE) $(MAKESILENT) -f src/base/CMakeFiles/TestTask.dir/build.make src/base/CMakeFiles/TestTask.dir/Task.cpp.o
 .PHONY : Task.cpp.o
 
 Task.i: Task.cpp.i
@@ -265,6 +269,7 @@ Task.i: Task.cpp.i
 # target to preprocess a source file
 Task.cpp.i:
 	cd /home/go1116/Desktop/tmms/bulid && $(MAKE) $(MAKESILENT) -f src/base/CMakeFiles/base.dir/build.make src/base/CMakeFiles/base.dir/Task.cpp.i
+	cd /home/go1116/Desktop/tmms/bulid && $(MAKE) $(MAKESILENT) -f src/base/CMakeFiles/TestTask.dir/build.make src/base/CMakeFiles/TestTask.dir/Task.cpp.i
 .PHONY : Task.cpp.i
 
 Task.s: Task.cpp.s
@@ -273,6 +278,7 @@ Task.s: Task.cpp.s
 # target to generate assembly for a file
 Task.cpp.s:
 	cd /home/go1116/Desktop/tmms/bulid && $(MAKE) $(MAKESILENT) -f src/base/CMakeFiles/base.dir/build.make src/base/CMakeFiles/base.dir/Task.cpp.s
+	cd /home/go1116/Desktop/tmms/bulid && $(MAKE) $(MAKESILENT) -f src/base/CMakeFiles/TestTask.dir/build.make src/base/CMakeFiles/TestTask.dir/Task.cpp.s
 .PHONY : Task.cpp.s
 
 TaskMgr.o: TaskMgr.cpp.o
@@ -281,6 +287,7 @@ TaskMgr.o: TaskMgr.cpp.o
 # target to build an object file
 TaskMgr.cpp.o:
 	cd /home/go1116/Desktop/tmms/bulid && $(MAKE) $(MAKESILENT) -f src/base/CMakeFiles/base.dir/build.make src/base/CMakeFiles/base.dir/TaskMgr.cpp.o
+	cd /home/go1116/Desktop/tmms/bulid && $(MAKE) $(MAKESILENT) -f src/base/CMakeFiles/TestTask.dir/build.make src/base/CMakeFiles/TestTask.dir/TaskMgr.cpp.o
 .PHONY : TaskMgr.cpp.o
 
 TaskMgr.i: TaskMgr.cpp.i
@@ -289,6 +296,7 @@ TaskMgr.i: TaskMgr.cpp.i
 # target to preprocess a source file
 TaskMgr.cpp.i:
 	cd /home/go1116/Desktop/tmms/bulid && $(MAKE) $(MAKESILENT) -f src/base/CMakeFiles/base.dir/build.make src/base/CMakeFiles/base.dir/TaskMgr.cpp.i
+	cd /home/go1116/Desktop/tmms/bulid && $(MAKE) $(MAKESILENT) -f src/base/CMakeFiles/TestTask.dir/build.make src/base/CMakeFiles/TestTask.dir/TaskMgr.cpp.i
 .PHONY : TaskMgr.cpp.i
 
 TaskMgr.s: TaskMgr.cpp.s
@@ -297,6 +305,7 @@ TaskMgr.s: TaskMgr.cpp.s
 # target to generate assembly for a file
 TaskMgr.cpp.s:
 	cd /home/go1116/Desktop/tmms/bulid && $(MAKE) $(MAKESILENT) -f src/base/CMakeFiles/base.dir/build.make src/base/CMakeFiles/base.dir/TaskMgr.cpp.s
+	cd /home/go1116/Desktop/tmms/bulid && $(MAKE) $(MAKESILENT) -f src/base/CMakeFiles/TestTask.dir/build.make src/base/CMakeFiles/TestTask.dir/TaskMgr.cpp.s
 .PHONY : TaskMgr.cpp.s
 
 TestSingleton.o: TestSingleton.cpp.o

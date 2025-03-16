@@ -1,5 +1,5 @@
-src/base/CMakeFiles/base.dir/TestTask.cpp.o: \
- /home/go1116/Desktop/tmms/src/base/TestTask.cpp \
+src/base/CMakeFiles/TestTask.dir/TaskMgr.cpp.o: \
+ /home/go1116/Desktop/tmms/src/base/TaskMgr.cpp \
  /usr/include/stdc-predef.h /home/go1116/Desktop/tmms/src/base/TaskMgr.h \
  /home/go1116/Desktop/tmms/src/base/Task.h /usr/include/c++/11/functional \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -166,21 +166,4 @@ src/base/CMakeFiles/base.dir/TestTask.cpp.o: \
  /usr/include/c++/11/bits/basic_string.tcc \
  /usr/include/c++/11/bits/std_mutex.h \
  /usr/include/c++/11/bits/unique_lock.h \
- /home/go1116/Desktop/tmms/src/base/TTime.h /usr/include/c++/11/iostream \
- /usr/include/c++/11/ostream /usr/include/c++/11/ios \
- /usr/include/c++/11/bits/ios_base.h \
- /usr/include/c++/11/bits/locale_classes.h \
- /usr/include/c++/11/bits/locale_classes.tcc \
- /usr/include/c++/11/streambuf /usr/include/c++/11/bits/streambuf.tcc \
- /usr/include/c++/11/bits/basic_ios.h \
- /usr/include/c++/11/bits/locale_facets.h /usr/include/c++/11/cwctype \
- /usr/include/wctype.h /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
- /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h \
- /usr/include/c++/11/bits/streambuf_iterator.h \
- /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h \
- /usr/include/c++/11/bits/locale_facets.tcc \
- /usr/include/c++/11/bits/basic_ios.tcc \
- /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
- /usr/include/c++/11/bits/istream.tcc /usr/include/c++/11/thread \
- /usr/include/c++/11/bits/std_thread.h \
- /usr/include/c++/11/bits/this_thread_sleep.h
+ /home/go1116/Desktop/tmms/src/base/TTime.h
