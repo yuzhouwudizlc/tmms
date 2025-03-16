@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/go1116/Desktop/tmms/bulid/CMakeFiles /home/go1116/Desktop/tmms/bulid//CMakeFiles/progress.marks
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
+	cd /home/go1116/Desktop/tmms/bulid && $(CMAKE_COMMAND) -E cmake_progress_start /home/go1116/Desktop/tmms/bulid/CMakeFiles /home/go1116/Desktop/tmms/bulid/src/base//CMakeFiles/progress.marks
+	cd /home/go1116/Desktop/tmms/bulid && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/base/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/go1116/Desktop/tmms/bulid/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clean
+	cd /home/go1116/Desktop/tmms/bulid && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/base/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,57 +148,121 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd /home/go1116/Desktop/tmms/bulid && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/base/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd /home/go1116/Desktop/tmms/bulid && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/base/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/go1116/Desktop/tmms/bulid && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named tmms
+# Convenience name for target.
+src/base/CMakeFiles/base.dir/rule:
+	cd /home/go1116/Desktop/tmms/bulid && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/base/CMakeFiles/base.dir/rule
+.PHONY : src/base/CMakeFiles/base.dir/rule
 
-# Build rule for target.
-tmms: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tmms
-.PHONY : tmms
-
-# fast build rule for target.
-tmms/fast:
-	$(MAKE) $(MAKESILENT) -f src/main/CMakeFiles/tmms.dir/build.make src/main/CMakeFiles/tmms.dir/build
-.PHONY : tmms/fast
-
-#=============================================================================
-# Target rules for targets named base
-
-# Build rule for target.
-base: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 base
+# Convenience name for target.
+base: src/base/CMakeFiles/base.dir/rule
 .PHONY : base
 
 # fast build rule for target.
 base/fast:
-	$(MAKE) $(MAKESILENT) -f src/base/CMakeFiles/base.dir/build.make src/base/CMakeFiles/base.dir/build
+	cd /home/go1116/Desktop/tmms/bulid && $(MAKE) $(MAKESILENT) -f src/base/CMakeFiles/base.dir/build.make src/base/CMakeFiles/base.dir/build
 .PHONY : base/fast
 
-#=============================================================================
-# Target rules for targets named TestSingleton
+# Convenience name for target.
+src/base/CMakeFiles/TestSingleton.dir/rule:
+	cd /home/go1116/Desktop/tmms/bulid && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/base/CMakeFiles/TestSingleton.dir/rule
+.PHONY : src/base/CMakeFiles/TestSingleton.dir/rule
 
-# Build rule for target.
-TestSingleton: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TestSingleton
+# Convenience name for target.
+TestSingleton: src/base/CMakeFiles/TestSingleton.dir/rule
 .PHONY : TestSingleton
 
 # fast build rule for target.
 TestSingleton/fast:
-	$(MAKE) $(MAKESILENT) -f src/base/CMakeFiles/TestSingleton.dir/build.make src/base/CMakeFiles/TestSingleton.dir/build
+	cd /home/go1116/Desktop/tmms/bulid && $(MAKE) $(MAKESILENT) -f src/base/CMakeFiles/TestSingleton.dir/build.make src/base/CMakeFiles/TestSingleton.dir/build
 .PHONY : TestSingleton/fast
+
+StringUtils.o: StringUtils.cpp.o
+.PHONY : StringUtils.o
+
+# target to build an object file
+StringUtils.cpp.o:
+	cd /home/go1116/Desktop/tmms/bulid && $(MAKE) $(MAKESILENT) -f src/base/CMakeFiles/base.dir/build.make src/base/CMakeFiles/base.dir/StringUtils.cpp.o
+.PHONY : StringUtils.cpp.o
+
+StringUtils.i: StringUtils.cpp.i
+.PHONY : StringUtils.i
+
+# target to preprocess a source file
+StringUtils.cpp.i:
+	cd /home/go1116/Desktop/tmms/bulid && $(MAKE) $(MAKESILENT) -f src/base/CMakeFiles/base.dir/build.make src/base/CMakeFiles/base.dir/StringUtils.cpp.i
+.PHONY : StringUtils.cpp.i
+
+StringUtils.s: StringUtils.cpp.s
+.PHONY : StringUtils.s
+
+# target to generate assembly for a file
+StringUtils.cpp.s:
+	cd /home/go1116/Desktop/tmms/bulid && $(MAKE) $(MAKESILENT) -f src/base/CMakeFiles/base.dir/build.make src/base/CMakeFiles/base.dir/StringUtils.cpp.s
+.PHONY : StringUtils.cpp.s
+
+TTime.o: TTime.cpp.o
+.PHONY : TTime.o
+
+# target to build an object file
+TTime.cpp.o:
+	cd /home/go1116/Desktop/tmms/bulid && $(MAKE) $(MAKESILENT) -f src/base/CMakeFiles/base.dir/build.make src/base/CMakeFiles/base.dir/TTime.cpp.o
+.PHONY : TTime.cpp.o
+
+TTime.i: TTime.cpp.i
+.PHONY : TTime.i
+
+# target to preprocess a source file
+TTime.cpp.i:
+	cd /home/go1116/Desktop/tmms/bulid && $(MAKE) $(MAKESILENT) -f src/base/CMakeFiles/base.dir/build.make src/base/CMakeFiles/base.dir/TTime.cpp.i
+.PHONY : TTime.cpp.i
+
+TTime.s: TTime.cpp.s
+.PHONY : TTime.s
+
+# target to generate assembly for a file
+TTime.cpp.s:
+	cd /home/go1116/Desktop/tmms/bulid && $(MAKE) $(MAKESILENT) -f src/base/CMakeFiles/base.dir/build.make src/base/CMakeFiles/base.dir/TTime.cpp.s
+.PHONY : TTime.cpp.s
+
+TestSingleton.o: TestSingleton.cpp.o
+.PHONY : TestSingleton.o
+
+# target to build an object file
+TestSingleton.cpp.o:
+	cd /home/go1116/Desktop/tmms/bulid && $(MAKE) $(MAKESILENT) -f src/base/CMakeFiles/base.dir/build.make src/base/CMakeFiles/base.dir/TestSingleton.cpp.o
+	cd /home/go1116/Desktop/tmms/bulid && $(MAKE) $(MAKESILENT) -f src/base/CMakeFiles/TestSingleton.dir/build.make src/base/CMakeFiles/TestSingleton.dir/TestSingleton.cpp.o
+.PHONY : TestSingleton.cpp.o
+
+TestSingleton.i: TestSingleton.cpp.i
+.PHONY : TestSingleton.i
+
+# target to preprocess a source file
+TestSingleton.cpp.i:
+	cd /home/go1116/Desktop/tmms/bulid && $(MAKE) $(MAKESILENT) -f src/base/CMakeFiles/base.dir/build.make src/base/CMakeFiles/base.dir/TestSingleton.cpp.i
+	cd /home/go1116/Desktop/tmms/bulid && $(MAKE) $(MAKESILENT) -f src/base/CMakeFiles/TestSingleton.dir/build.make src/base/CMakeFiles/TestSingleton.dir/TestSingleton.cpp.i
+.PHONY : TestSingleton.cpp.i
+
+TestSingleton.s: TestSingleton.cpp.s
+.PHONY : TestSingleton.s
+
+# target to generate assembly for a file
+TestSingleton.cpp.s:
+	cd /home/go1116/Desktop/tmms/bulid && $(MAKE) $(MAKESILENT) -f src/base/CMakeFiles/base.dir/build.make src/base/CMakeFiles/base.dir/TestSingleton.cpp.s
+	cd /home/go1116/Desktop/tmms/bulid && $(MAKE) $(MAKESILENT) -f src/base/CMakeFiles/TestSingleton.dir/build.make src/base/CMakeFiles/TestSingleton.dir/TestSingleton.cpp.s
+.PHONY : TestSingleton.cpp.s
 
 # Help Target
 help:
@@ -214,7 +278,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... TestSingleton"
 	@echo "... base"
-	@echo "... tmms"
+	@echo "... StringUtils.o"
+	@echo "... StringUtils.i"
+	@echo "... StringUtils.s"
+	@echo "... TTime.o"
+	@echo "... TTime.i"
+	@echo "... TTime.s"
+	@echo "... TestSingleton.o"
+	@echo "... TestSingleton.i"
+	@echo "... TestSingleton.s"
 .PHONY : help
 
 
@@ -226,6 +298,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/go1116/Desktop/tmms/bulid && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

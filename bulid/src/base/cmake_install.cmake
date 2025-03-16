@@ -1,4 +1,4 @@
-# Install script for directory: /home/go1116/Desktop/tmms/src
+# Install script for directory: /home/go1116/Desktop/tmms/src/base
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,12 +40,5 @@ endif()
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "/usr/bin/objdump")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for each subdirectory.
-  include("/home/go1116/Desktop/tmms/bulid/src/main/cmake_install.cmake")
-  include("/home/go1116/Desktop/tmms/bulid/src/base/cmake_install.cmake")
-
 endif()
 
