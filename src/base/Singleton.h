@@ -15,7 +15,7 @@ namespace tmms
             static T &Instance()
             {
                 pthread_once(&ponce_, &Singleton::init);
-                return *value_;
+                return value_;
             }
         private:
             static void init(){

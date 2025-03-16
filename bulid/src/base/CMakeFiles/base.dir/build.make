@@ -97,10 +97,38 @@ src/base/CMakeFiles/base.dir/TTime.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base.dir/TTime.cpp.s"
 	cd /home/go1116/Desktop/tmms/bulid/src/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/go1116/Desktop/tmms/src/base/TTime.cpp -o CMakeFiles/base.dir/TTime.cpp.s
 
+src/base/CMakeFiles/base.dir/Task.cpp.o: src/base/CMakeFiles/base.dir/flags.make
+src/base/CMakeFiles/base.dir/Task.cpp.o: ../src/base/Task.cpp
+src/base/CMakeFiles/base.dir/Task.cpp.o: src/base/CMakeFiles/base.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/go1116/Desktop/tmms/bulid/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/base/CMakeFiles/base.dir/Task.cpp.o"
+	cd /home/go1116/Desktop/tmms/bulid/src/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/base/CMakeFiles/base.dir/Task.cpp.o -MF CMakeFiles/base.dir/Task.cpp.o.d -o CMakeFiles/base.dir/Task.cpp.o -c /home/go1116/Desktop/tmms/src/base/Task.cpp
+
+src/base/CMakeFiles/base.dir/Task.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base.dir/Task.cpp.i"
+	cd /home/go1116/Desktop/tmms/bulid/src/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/go1116/Desktop/tmms/src/base/Task.cpp > CMakeFiles/base.dir/Task.cpp.i
+
+src/base/CMakeFiles/base.dir/Task.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base.dir/Task.cpp.s"
+	cd /home/go1116/Desktop/tmms/bulid/src/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/go1116/Desktop/tmms/src/base/Task.cpp -o CMakeFiles/base.dir/Task.cpp.s
+
+src/base/CMakeFiles/base.dir/TaskMgr.cpp.o: src/base/CMakeFiles/base.dir/flags.make
+src/base/CMakeFiles/base.dir/TaskMgr.cpp.o: ../src/base/TaskMgr.cpp
+src/base/CMakeFiles/base.dir/TaskMgr.cpp.o: src/base/CMakeFiles/base.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/go1116/Desktop/tmms/bulid/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/base/CMakeFiles/base.dir/TaskMgr.cpp.o"
+	cd /home/go1116/Desktop/tmms/bulid/src/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/base/CMakeFiles/base.dir/TaskMgr.cpp.o -MF CMakeFiles/base.dir/TaskMgr.cpp.o.d -o CMakeFiles/base.dir/TaskMgr.cpp.o -c /home/go1116/Desktop/tmms/src/base/TaskMgr.cpp
+
+src/base/CMakeFiles/base.dir/TaskMgr.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base.dir/TaskMgr.cpp.i"
+	cd /home/go1116/Desktop/tmms/bulid/src/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/go1116/Desktop/tmms/src/base/TaskMgr.cpp > CMakeFiles/base.dir/TaskMgr.cpp.i
+
+src/base/CMakeFiles/base.dir/TaskMgr.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base.dir/TaskMgr.cpp.s"
+	cd /home/go1116/Desktop/tmms/bulid/src/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/go1116/Desktop/tmms/src/base/TaskMgr.cpp -o CMakeFiles/base.dir/TaskMgr.cpp.s
+
 src/base/CMakeFiles/base.dir/TestSingleton.cpp.o: src/base/CMakeFiles/base.dir/flags.make
 src/base/CMakeFiles/base.dir/TestSingleton.cpp.o: ../src/base/TestSingleton.cpp
 src/base/CMakeFiles/base.dir/TestSingleton.cpp.o: src/base/CMakeFiles/base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/go1116/Desktop/tmms/bulid/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/base/CMakeFiles/base.dir/TestSingleton.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/go1116/Desktop/tmms/bulid/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/base/CMakeFiles/base.dir/TestSingleton.cpp.o"
 	cd /home/go1116/Desktop/tmms/bulid/src/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/base/CMakeFiles/base.dir/TestSingleton.cpp.o -MF CMakeFiles/base.dir/TestSingleton.cpp.o.d -o CMakeFiles/base.dir/TestSingleton.cpp.o -c /home/go1116/Desktop/tmms/src/base/TestSingleton.cpp
 
 src/base/CMakeFiles/base.dir/TestSingleton.cpp.i: cmake_force
@@ -111,21 +139,41 @@ src/base/CMakeFiles/base.dir/TestSingleton.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base.dir/TestSingleton.cpp.s"
 	cd /home/go1116/Desktop/tmms/bulid/src/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/go1116/Desktop/tmms/src/base/TestSingleton.cpp -o CMakeFiles/base.dir/TestSingleton.cpp.s
 
+src/base/CMakeFiles/base.dir/TestTask.cpp.o: src/base/CMakeFiles/base.dir/flags.make
+src/base/CMakeFiles/base.dir/TestTask.cpp.o: ../src/base/TestTask.cpp
+src/base/CMakeFiles/base.dir/TestTask.cpp.o: src/base/CMakeFiles/base.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/go1116/Desktop/tmms/bulid/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/base/CMakeFiles/base.dir/TestTask.cpp.o"
+	cd /home/go1116/Desktop/tmms/bulid/src/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/base/CMakeFiles/base.dir/TestTask.cpp.o -MF CMakeFiles/base.dir/TestTask.cpp.o.d -o CMakeFiles/base.dir/TestTask.cpp.o -c /home/go1116/Desktop/tmms/src/base/TestTask.cpp
+
+src/base/CMakeFiles/base.dir/TestTask.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base.dir/TestTask.cpp.i"
+	cd /home/go1116/Desktop/tmms/bulid/src/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/go1116/Desktop/tmms/src/base/TestTask.cpp > CMakeFiles/base.dir/TestTask.cpp.i
+
+src/base/CMakeFiles/base.dir/TestTask.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base.dir/TestTask.cpp.s"
+	cd /home/go1116/Desktop/tmms/bulid/src/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/go1116/Desktop/tmms/src/base/TestTask.cpp -o CMakeFiles/base.dir/TestTask.cpp.s
+
 # Object files for target base
 base_OBJECTS = \
 "CMakeFiles/base.dir/StringUtils.cpp.o" \
 "CMakeFiles/base.dir/TTime.cpp.o" \
-"CMakeFiles/base.dir/TestSingleton.cpp.o"
+"CMakeFiles/base.dir/Task.cpp.o" \
+"CMakeFiles/base.dir/TaskMgr.cpp.o" \
+"CMakeFiles/base.dir/TestSingleton.cpp.o" \
+"CMakeFiles/base.dir/TestTask.cpp.o"
 
 # External object files for target base
 base_EXTERNAL_OBJECTS =
 
 src/base/libbase.a: src/base/CMakeFiles/base.dir/StringUtils.cpp.o
 src/base/libbase.a: src/base/CMakeFiles/base.dir/TTime.cpp.o
+src/base/libbase.a: src/base/CMakeFiles/base.dir/Task.cpp.o
+src/base/libbase.a: src/base/CMakeFiles/base.dir/TaskMgr.cpp.o
 src/base/libbase.a: src/base/CMakeFiles/base.dir/TestSingleton.cpp.o
+src/base/libbase.a: src/base/CMakeFiles/base.dir/TestTask.cpp.o
 src/base/libbase.a: src/base/CMakeFiles/base.dir/build.make
 src/base/libbase.a: src/base/CMakeFiles/base.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/go1116/Desktop/tmms/bulid/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libbase.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/go1116/Desktop/tmms/bulid/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library libbase.a"
 	cd /home/go1116/Desktop/tmms/bulid/src/base && $(CMAKE_COMMAND) -P CMakeFiles/base.dir/cmake_clean_target.cmake
 	cd /home/go1116/Desktop/tmms/bulid/src/base && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/base.dir/link.txt --verbose=$(VERBOSE)
 

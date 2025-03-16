@@ -52,4 +52,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "src/main/CMakeFiles/tmms.dir/DependInfo.cmake"
   "src/base/CMakeFiles/base.dir/DependInfo.cmake"
   "src/base/CMakeFiles/TestSingleton.dir/DependInfo.cmake"
+  "src/base/CMakeFiles/TestTask.dir/DependInfo.cmake"
   )

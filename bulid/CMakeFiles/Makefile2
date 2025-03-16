@@ -98,6 +98,7 @@ src/clean: src/base/clean
 # Recursive "all" directory target.
 src/base/all: src/base/CMakeFiles/base.dir/all
 src/base/all: src/base/CMakeFiles/TestSingleton.dir/all
+src/base/all: src/base/CMakeFiles/TestTask.dir/all
 .PHONY : src/base/all
 
 # Recursive "preinstall" directory target.
@@ -107,6 +108,7 @@ src/base/preinstall:
 # Recursive "clean" directory target.
 src/base/clean: src/base/CMakeFiles/base.dir/clean
 src/base/clean: src/base/CMakeFiles/TestSingleton.dir/clean
+src/base/clean: src/base/CMakeFiles/TestTask.dir/clean
 .PHONY : src/base/clean
 
 #=============================================================================
@@ -131,7 +133,7 @@ src/main/clean: src/main/CMakeFiles/tmms.dir/clean
 src/main/CMakeFiles/tmms.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/main/CMakeFiles/tmms.dir/build.make src/main/CMakeFiles/tmms.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/main/CMakeFiles/tmms.dir/build.make src/main/CMakeFiles/tmms.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/go1116/Desktop/tmms/bulid/CMakeFiles --progress-num=7,8 "Built target tmms"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/go1116/Desktop/tmms/bulid/CMakeFiles --progress-num=12,13 "Built target tmms"
 .PHONY : src/main/CMakeFiles/tmms.dir/all
 
 # Build rule for subdir invocation for target.
@@ -157,12 +159,12 @@ src/main/CMakeFiles/tmms.dir/clean:
 src/base/CMakeFiles/base.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/base/CMakeFiles/base.dir/build.make src/base/CMakeFiles/base.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/base/CMakeFiles/base.dir/build.make src/base/CMakeFiles/base.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/go1116/Desktop/tmms/bulid/CMakeFiles --progress-num=3,4,5,6 "Built target base"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/go1116/Desktop/tmms/bulid/CMakeFiles --progress-num=5,6,7,8,9,10,11 "Built target base"
 .PHONY : src/base/CMakeFiles/base.dir/all
 
 # Build rule for subdir invocation for target.
 src/base/CMakeFiles/base.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/go1116/Desktop/tmms/bulid/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/go1116/Desktop/tmms/bulid/CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/base/CMakeFiles/base.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/go1116/Desktop/tmms/bulid/CMakeFiles 0
 .PHONY : src/base/CMakeFiles/base.dir/rule
@@ -201,6 +203,32 @@ TestSingleton: src/base/CMakeFiles/TestSingleton.dir/rule
 src/base/CMakeFiles/TestSingleton.dir/clean:
 	$(MAKE) $(MAKESILENT) -f src/base/CMakeFiles/TestSingleton.dir/build.make src/base/CMakeFiles/TestSingleton.dir/clean
 .PHONY : src/base/CMakeFiles/TestSingleton.dir/clean
+
+#=============================================================================
+# Target rules for target src/base/CMakeFiles/TestTask.dir
+
+# All Build rule for target.
+src/base/CMakeFiles/TestTask.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/base/CMakeFiles/TestTask.dir/build.make src/base/CMakeFiles/TestTask.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/base/CMakeFiles/TestTask.dir/build.make src/base/CMakeFiles/TestTask.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/go1116/Desktop/tmms/bulid/CMakeFiles --progress-num=3,4 "Built target TestTask"
+.PHONY : src/base/CMakeFiles/TestTask.dir/all
+
+# Build rule for subdir invocation for target.
+src/base/CMakeFiles/TestTask.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/go1116/Desktop/tmms/bulid/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/base/CMakeFiles/TestTask.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/go1116/Desktop/tmms/bulid/CMakeFiles 0
+.PHONY : src/base/CMakeFiles/TestTask.dir/rule
+
+# Convenience name for target.
+TestTask: src/base/CMakeFiles/TestTask.dir/rule
+.PHONY : TestTask
+
+# clean rule for target.
+src/base/CMakeFiles/TestTask.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/base/CMakeFiles/TestTask.dir/build.make src/base/CMakeFiles/TestTask.dir/clean
+.PHONY : src/base/CMakeFiles/TestTask.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

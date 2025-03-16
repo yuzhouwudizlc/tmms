@@ -16,6 +16,6 @@ public:
 #define sA tmms::base::Singleton<A>::Instance()
 int main(int argc,const char ** argv)
 {
-    sA.Print();
+    sA->Print();
     return 0;
 }

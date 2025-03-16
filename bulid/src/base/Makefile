@@ -189,6 +189,20 @@ TestSingleton/fast:
 	cd /home/go1116/Desktop/tmms/bulid && $(MAKE) $(MAKESILENT) -f src/base/CMakeFiles/TestSingleton.dir/build.make src/base/CMakeFiles/TestSingleton.dir/build
 .PHONY : TestSingleton/fast
 
+# Convenience name for target.
+src/base/CMakeFiles/TestTask.dir/rule:
+	cd /home/go1116/Desktop/tmms/bulid && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/base/CMakeFiles/TestTask.dir/rule
+.PHONY : src/base/CMakeFiles/TestTask.dir/rule
+
+# Convenience name for target.
+TestTask: src/base/CMakeFiles/TestTask.dir/rule
+.PHONY : TestTask
+
+# fast build rule for target.
+TestTask/fast:
+	cd /home/go1116/Desktop/tmms/bulid && $(MAKE) $(MAKESILENT) -f src/base/CMakeFiles/TestTask.dir/build.make src/base/CMakeFiles/TestTask.dir/build
+.PHONY : TestTask/fast
+
 StringUtils.o: StringUtils.cpp.o
 .PHONY : StringUtils.o
 
@@ -237,6 +251,54 @@ TTime.cpp.s:
 	cd /home/go1116/Desktop/tmms/bulid && $(MAKE) $(MAKESILENT) -f src/base/CMakeFiles/base.dir/build.make src/base/CMakeFiles/base.dir/TTime.cpp.s
 .PHONY : TTime.cpp.s
 
+Task.o: Task.cpp.o
+.PHONY : Task.o
+
+# target to build an object file
+Task.cpp.o:
+	cd /home/go1116/Desktop/tmms/bulid && $(MAKE) $(MAKESILENT) -f src/base/CMakeFiles/base.dir/build.make src/base/CMakeFiles/base.dir/Task.cpp.o
+.PHONY : Task.cpp.o
+
+Task.i: Task.cpp.i
+.PHONY : Task.i
+
+# target to preprocess a source file
+Task.cpp.i:
+	cd /home/go1116/Desktop/tmms/bulid && $(MAKE) $(MAKESILENT) -f src/base/CMakeFiles/base.dir/build.make src/base/CMakeFiles/base.dir/Task.cpp.i
+.PHONY : Task.cpp.i
+
+Task.s: Task.cpp.s
+.PHONY : Task.s
+
+# target to generate assembly for a file
+Task.cpp.s:
+	cd /home/go1116/Desktop/tmms/bulid && $(MAKE) $(MAKESILENT) -f src/base/CMakeFiles/base.dir/build.make src/base/CMakeFiles/base.dir/Task.cpp.s
+.PHONY : Task.cpp.s
+
+TaskMgr.o: TaskMgr.cpp.o
+.PHONY : TaskMgr.o
+
+# target to build an object file
+TaskMgr.cpp.o:
+	cd /home/go1116/Desktop/tmms/bulid && $(MAKE) $(MAKESILENT) -f src/base/CMakeFiles/base.dir/build.make src/base/CMakeFiles/base.dir/TaskMgr.cpp.o
+.PHONY : TaskMgr.cpp.o
+
+TaskMgr.i: TaskMgr.cpp.i
+.PHONY : TaskMgr.i
+
+# target to preprocess a source file
+TaskMgr.cpp.i:
+	cd /home/go1116/Desktop/tmms/bulid && $(MAKE) $(MAKESILENT) -f src/base/CMakeFiles/base.dir/build.make src/base/CMakeFiles/base.dir/TaskMgr.cpp.i
+.PHONY : TaskMgr.cpp.i
+
+TaskMgr.s: TaskMgr.cpp.s
+.PHONY : TaskMgr.s
+
+# target to generate assembly for a file
+TaskMgr.cpp.s:
+	cd /home/go1116/Desktop/tmms/bulid && $(MAKE) $(MAKESILENT) -f src/base/CMakeFiles/base.dir/build.make src/base/CMakeFiles/base.dir/TaskMgr.cpp.s
+.PHONY : TaskMgr.cpp.s
+
 TestSingleton.o: TestSingleton.cpp.o
 .PHONY : TestSingleton.o
 
@@ -264,6 +326,33 @@ TestSingleton.cpp.s:
 	cd /home/go1116/Desktop/tmms/bulid && $(MAKE) $(MAKESILENT) -f src/base/CMakeFiles/TestSingleton.dir/build.make src/base/CMakeFiles/TestSingleton.dir/TestSingleton.cpp.s
 .PHONY : TestSingleton.cpp.s
 
+TestTask.o: TestTask.cpp.o
+.PHONY : TestTask.o
+
+# target to build an object file
+TestTask.cpp.o:
+	cd /home/go1116/Desktop/tmms/bulid && $(MAKE) $(MAKESILENT) -f src/base/CMakeFiles/base.dir/build.make src/base/CMakeFiles/base.dir/TestTask.cpp.o
+	cd /home/go1116/Desktop/tmms/bulid && $(MAKE) $(MAKESILENT) -f src/base/CMakeFiles/TestTask.dir/build.make src/base/CMakeFiles/TestTask.dir/TestTask.cpp.o
+.PHONY : TestTask.cpp.o
+
+TestTask.i: TestTask.cpp.i
+.PHONY : TestTask.i
+
+# target to preprocess a source file
+TestTask.cpp.i:
+	cd /home/go1116/Desktop/tmms/bulid && $(MAKE) $(MAKESILENT) -f src/base/CMakeFiles/base.dir/build.make src/base/CMakeFiles/base.dir/TestTask.cpp.i
+	cd /home/go1116/Desktop/tmms/bulid && $(MAKE) $(MAKESILENT) -f src/base/CMakeFiles/TestTask.dir/build.make src/base/CMakeFiles/TestTask.dir/TestTask.cpp.i
+.PHONY : TestTask.cpp.i
+
+TestTask.s: TestTask.cpp.s
+.PHONY : TestTask.s
+
+# target to generate assembly for a file
+TestTask.cpp.s:
+	cd /home/go1116/Desktop/tmms/bulid && $(MAKE) $(MAKESILENT) -f src/base/CMakeFiles/base.dir/build.make src/base/CMakeFiles/base.dir/TestTask.cpp.s
+	cd /home/go1116/Desktop/tmms/bulid && $(MAKE) $(MAKESILENT) -f src/base/CMakeFiles/TestTask.dir/build.make src/base/CMakeFiles/TestTask.dir/TestTask.cpp.s
+.PHONY : TestTask.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -277,6 +366,7 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... TestSingleton"
+	@echo "... TestTask"
 	@echo "... base"
 	@echo "... StringUtils.o"
 	@echo "... StringUtils.i"
@@ -284,9 +374,18 @@ help:
 	@echo "... TTime.o"
 	@echo "... TTime.i"
 	@echo "... TTime.s"
+	@echo "... Task.o"
+	@echo "... Task.i"
+	@echo "... Task.s"
+	@echo "... TaskMgr.o"
+	@echo "... TaskMgr.i"
+	@echo "... TaskMgr.s"
 	@echo "... TestSingleton.o"
 	@echo "... TestSingleton.i"
 	@echo "... TestSingleton.s"
+	@echo "... TestTask.o"
+	@echo "... TestTask.i"
+	@echo "... TestTask.s"
 .PHONY : help
 
 

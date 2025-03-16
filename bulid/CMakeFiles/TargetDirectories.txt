@@ -19,6 +19,7 @@
 /home/go1116/Desktop/tmms/bulid/src/main/CMakeFiles/install/strip.dir
 /home/go1116/Desktop/tmms/bulid/src/base/CMakeFiles/base.dir
 /home/go1116/Desktop/tmms/bulid/src/base/CMakeFiles/TestSingleton.dir
+/home/go1116/Desktop/tmms/bulid/src/base/CMakeFiles/TestTask.dir
 /home/go1116/Desktop/tmms/bulid/src/base/CMakeFiles/edit_cache.dir
 /home/go1116/Desktop/tmms/bulid/src/base/CMakeFiles/rebuild_cache.dir
 /home/go1116/Desktop/tmms/bulid/src/base/CMakeFiles/list_install_components.dir

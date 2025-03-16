@@ -200,6 +200,19 @@ TestSingleton/fast:
 	$(MAKE) $(MAKESILENT) -f src/base/CMakeFiles/TestSingleton.dir/build.make src/base/CMakeFiles/TestSingleton.dir/build
 .PHONY : TestSingleton/fast
 
+#=============================================================================
+# Target rules for targets named TestTask
+
+# Build rule for target.
+TestTask: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TestTask
+.PHONY : TestTask
+
+# fast build rule for target.
+TestTask/fast:
+	$(MAKE) $(MAKESILENT) -f src/base/CMakeFiles/TestTask.dir/build.make src/base/CMakeFiles/TestTask.dir/build
+.PHONY : TestTask/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -213,6 +226,7 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... TestSingleton"
+	@echo "... TestTask"
 	@echo "... base"
 	@echo "... tmms"
 .PHONY : help
