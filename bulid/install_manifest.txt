@@ -1,0 +1,1 @@
+/home/go1116/Desktop/tmms/bulid/../bin/sbin/tmms
