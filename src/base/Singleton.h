@@ -12,7 +12,7 @@ namespace tmms
             Singleton() = delete;
             ~Singleton() = delete;
 
-            static T &Instance()
+            static T*& Instance()
             {
                 pthread_once(&ponce_, &Singleton::init);
                 return value_;

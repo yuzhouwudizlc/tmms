@@ -1,4 +1,5 @@
 #include "TaskMgr.h"
+#include "Task.h"
 #include <iostream>
 #include <memory>
 #include <thread>  // 添加头文件
@@ -38,7 +39,7 @@ void TestTask(){
     sTaskMgr->Add(task3);
     sTaskMgr->Add(task4);
 }
-int main(int argc, const char **argc){
+int main(int argc, const char **argv){
     TestTask();
     while(1)
     {
