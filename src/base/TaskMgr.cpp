@@ -3,7 +3,7 @@
 using namespace tmms::base;
 void TaskMgr::OnWork(){
     std::lock_guard<std::mutex> lock(mutex_);
-    int64_t now = TTime::Now();
+    int64_t now = TTime::NowMS();
     for(auto iter = tasks_.begin(); iter != tasks_.end();)
     {
         if((*iter)->When() < now)
@@ -27,19 +27,12 @@ bool TaskMgr::Add(TaskPtr &task)
     {
         return false;
     }
-    tasks_.insert(task);
+    tasks_.emplace(task);
     return true;
-
 }
 bool TaskMgr::Del(TaskPtr &task)
 {
     std::lock_guard<std::mutex> lock(mutex_);
-    auto iteration = tasks_.find(task);
-    if(iteration == tasks_.end())
-    {
-        return false;
-    }
-    tasks_.erase(iteration);
+    tasks_.erase(task);
     return true;
-
 }

@@ -14,7 +14,7 @@ namespace tmms
             ~TaskMgr() = default;
 
             void OnWork();
-            bool Add(TaskPtr &task);
+            bool Add(TaskPtr &task); //TaskPtr  -》 std::shared_ptr<Task>;
             bool Del(TaskPtr &task);
         private:
            std::unordered_set<TaskPtr> tasks_;

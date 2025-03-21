@@ -140,6 +140,7 @@ src/base/TestTask: src/base/CMakeFiles/TestTask.dir/Task.cpp.o
 src/base/TestTask: src/base/CMakeFiles/TestTask.dir/TaskMgr.cpp.o
 src/base/TestTask: src/base/CMakeFiles/TestTask.dir/TTime.cpp.o
 src/base/TestTask: src/base/CMakeFiles/TestTask.dir/build.make
+src/base/TestTask: src/base/libbase.a
 src/base/TestTask: src/base/CMakeFiles/TestTask.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/go1116/Desktop/tmms/bulid/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable TestTask"
 	cd /home/go1116/Desktop/tmms/bulid/src/base && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/TestTask.dir/link.txt --verbose=$(VERBOSE)

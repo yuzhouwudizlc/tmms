@@ -13,13 +13,12 @@ namespace tmms
         public:
             Task(const TaskCallback &cb, int64_t interval);
             Task(const TaskCallback &&cb, int64_t interval);
-            
-            void Run();
-            void Restart();
-            int64_t When() const
-            {
+            int64_t When() const{
                 return when_;
             }
+            void Run();
+            void Restart();
+
         private:
             int64_t interval_{0};
             int64_t when_{0};
