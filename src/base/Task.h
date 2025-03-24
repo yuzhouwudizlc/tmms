@@ -18,7 +18,6 @@ namespace tmms
             }
             void Run();
             void Restart();
-
         private:
             int64_t interval_{0};
             int64_t when_{0};

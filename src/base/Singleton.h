@@ -14,6 +14,9 @@ namespace tmms
 
             static T*& Instance()
             {
+                //pthread_once(&ponce_, &Singleton::init);：
+                // pthread_once 是 POSIX 线程库中的一个函数，用于确保某个函数（这里是 Singleton::init）
+                // 在程序运行期间只被调用一次
                 pthread_once(&ponce_, &Singleton::init);
                 return value_;
             }

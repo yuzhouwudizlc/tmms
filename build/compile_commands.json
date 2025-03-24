@@ -1,0 +1,87 @@
+[
+{
+  "directory": "/home/go1116/Desktop/tmms/build/src/main",
+  "command": "/usr/bin/g++  -I/home/go1116/Desktop/tmms/src -Wno-error=unused-result -Werror=return-type  -std=c++11 -O0 -g -pipe -Wall -Werror -Wno-unused-variable -lrt -pthread -fno-strict-aliasing -Wno-error=shadow -Wno-sign-compare -g -o CMakeFiles/tmms.dir/main.cpp.o -c /home/go1116/Desktop/tmms/src/main/main.cpp",
+  "file": "/home/go1116/Desktop/tmms/src/main/main.cpp"
+},
+{
+  "directory": "/home/go1116/Desktop/tmms/build/src/base",
+  "command": "/usr/bin/g++  -I/home/go1116/Desktop/tmms/src -Wno-error=unused-result -Werror=return-type  -std=c++11 -O0 -g -pipe -Wall -Werror -Wno-unused-variable -lrt -pthread -fno-strict-aliasing -Wno-error=shadow -Wno-sign-compare -g -o CMakeFiles/base.dir/LogStream.cpp.o -c /home/go1116/Desktop/tmms/src/base/LogStream.cpp",
+  "file": "/home/go1116/Desktop/tmms/src/base/LogStream.cpp"
+},
+{
+  "directory": "/home/go1116/Desktop/tmms/build/src/base",
+  "command": "/usr/bin/g++  -I/home/go1116/Desktop/tmms/src -Wno-error=unused-result -Werror=return-type  -std=c++11 -O0 -g -pipe -Wall -Werror -Wno-unused-variable -lrt -pthread -fno-strict-aliasing -Wno-error=shadow -Wno-sign-compare -g -o CMakeFiles/base.dir/Logger.cpp.o -c /home/go1116/Desktop/tmms/src/base/Logger.cpp",
+  "file": "/home/go1116/Desktop/tmms/src/base/Logger.cpp"
+},
+{
+  "directory": "/home/go1116/Desktop/tmms/build/src/base",
+  "command": "/usr/bin/g++  -I/home/go1116/Desktop/tmms/src -Wno-error=unused-result -Werror=return-type  -std=c++11 -O0 -g -pipe -Wall -Werror -Wno-unused-variable -lrt -pthread -fno-strict-aliasing -Wno-error=shadow -Wno-sign-compare -g -o CMakeFiles/base.dir/StringUtils.cpp.o -c /home/go1116/Desktop/tmms/src/base/StringUtils.cpp",
+  "file": "/home/go1116/Desktop/tmms/src/base/StringUtils.cpp"
+},
+{
+  "directory": "/home/go1116/Desktop/tmms/build/src/base",
+  "command": "/usr/bin/g++  -I/home/go1116/Desktop/tmms/src -Wno-error=unused-result -Werror=return-type  -std=c++11 -O0 -g -pipe -Wall -Werror -Wno-unused-variable -lrt -pthread -fno-strict-aliasing -Wno-error=shadow -Wno-sign-compare -g -o CMakeFiles/base.dir/TTime.cpp.o -c /home/go1116/Desktop/tmms/src/base/TTime.cpp",
+  "file": "/home/go1116/Desktop/tmms/src/base/TTime.cpp"
+},
+{
+  "directory": "/home/go1116/Desktop/tmms/build/src/base",
+  "command": "/usr/bin/g++  -I/home/go1116/Desktop/tmms/src -Wno-error=unused-result -Werror=return-type  -std=c++11 -O0 -g -pipe -Wall -Werror -Wno-unused-variable -lrt -pthread -fno-strict-aliasing -Wno-error=shadow -Wno-sign-compare -g -o CMakeFiles/base.dir/Task.cpp.o -c /home/go1116/Desktop/tmms/src/base/Task.cpp",
+  "file": "/home/go1116/Desktop/tmms/src/base/Task.cpp"
+},
+{
+  "directory": "/home/go1116/Desktop/tmms/build/src/base",
+  "command": "/usr/bin/g++  -I/home/go1116/Desktop/tmms/src -Wno-error=unused-result -Werror=return-type  -std=c++11 -O0 -g -pipe -Wall -Werror -Wno-unused-variable -lrt -pthread -fno-strict-aliasing -Wno-error=shadow -Wno-sign-compare -g -o CMakeFiles/base.dir/TaskMgr.cpp.o -c /home/go1116/Desktop/tmms/src/base/TaskMgr.cpp",
+  "file": "/home/go1116/Desktop/tmms/src/base/TaskMgr.cpp"
+},
+{
+  "directory": "/home/go1116/Desktop/tmms/build/src/base",
+  "command": "/usr/bin/g++  -I/home/go1116/Desktop/tmms/src -Wno-error=unused-result -Werror=return-type  -std=c++11 -O0 -g -pipe -Wall -Werror -Wno-unused-variable -lrt -pthread -fno-strict-aliasing -Wno-error=shadow -Wno-sign-compare -g -o CMakeFiles/base.dir/TestLog.cpp.o -c /home/go1116/Desktop/tmms/src/base/TestLog.cpp",
+  "file": "/home/go1116/Desktop/tmms/src/base/TestLog.cpp"
+},
+{
+  "directory": "/home/go1116/Desktop/tmms/build/src/base",
+  "command": "/usr/bin/g++  -I/home/go1116/Desktop/tmms/src -Wno-error=unused-result -Werror=return-type  -std=c++11 -O0 -g -pipe -Wall -Werror -Wno-unused-variable -lrt -pthread -fno-strict-aliasing -Wno-error=shadow -Wno-sign-compare -g -o CMakeFiles/base.dir/TestSingleton.cpp.o -c /home/go1116/Desktop/tmms/src/base/TestSingleton.cpp",
+  "file": "/home/go1116/Desktop/tmms/src/base/TestSingleton.cpp"
+},
+{
+  "directory": "/home/go1116/Desktop/tmms/build/src/base",
+  "command": "/usr/bin/g++  -I/home/go1116/Desktop/tmms/src -Wno-error=unused-result -Werror=return-type  -std=c++11 -O0 -g -pipe -Wall -Werror -Wno-unused-variable -lrt -pthread -fno-strict-aliasing -Wno-error=shadow -Wno-sign-compare -g -o CMakeFiles/base.dir/TestTask.cpp.o -c /home/go1116/Desktop/tmms/src/base/TestTask.cpp",
+  "file": "/home/go1116/Desktop/tmms/src/base/TestTask.cpp"
+},
+{
+  "directory": "/home/go1116/Desktop/tmms/build/src/base",
+  "command": "/usr/bin/g++  -I/home/go1116/Desktop/tmms/src -Wno-error=unused-result -Werror=return-type  -std=c++11 -O0 -g -pipe -Wall -Werror -Wno-unused-variable -lrt -pthread -fno-strict-aliasing -Wno-error=shadow -Wno-sign-compare -g -o CMakeFiles/TestSingleton.dir/TestSingleton.cpp.o -c /home/go1116/Desktop/tmms/src/base/TestSingleton.cpp",
+  "file": "/home/go1116/Desktop/tmms/src/base/TestSingleton.cpp"
+},
+{
+  "directory": "/home/go1116/Desktop/tmms/build/src/base",
+  "command": "/usr/bin/g++  -I/home/go1116/Desktop/tmms/src -Wno-error=unused-result -Werror=return-type  -std=c++11 -O0 -g -pipe -Wall -Werror -Wno-unused-variable -lrt -pthread -fno-strict-aliasing -Wno-error=shadow -Wno-sign-compare -g -o CMakeFiles/TestTask.dir/TestTask.cpp.o -c /home/go1116/Desktop/tmms/src/base/TestTask.cpp",
+  "file": "/home/go1116/Desktop/tmms/src/base/TestTask.cpp"
+},
+{
+  "directory": "/home/go1116/Desktop/tmms/build/src/base",
+  "command": "/usr/bin/g++  -I/home/go1116/Desktop/tmms/src -Wno-error=unused-result -Werror=return-type  -std=c++11 -O0 -g -pipe -Wall -Werror -Wno-unused-variable -lrt -pthread -fno-strict-aliasing -Wno-error=shadow -Wno-sign-compare -g -o CMakeFiles/TestTask.dir/Task.cpp.o -c /home/go1116/Desktop/tmms/src/base/Task.cpp",
+  "file": "/home/go1116/Desktop/tmms/src/base/Task.cpp"
+},
+{
+  "directory": "/home/go1116/Desktop/tmms/build/src/base",
+  "command": "/usr/bin/g++  -I/home/go1116/Desktop/tmms/src -Wno-error=unused-result -Werror=return-type  -std=c++11 -O0 -g -pipe -Wall -Werror -Wno-unused-variable -lrt -pthread -fno-strict-aliasing -Wno-error=shadow -Wno-sign-compare -g -o CMakeFiles/TestTask.dir/TaskMgr.cpp.o -c /home/go1116/Desktop/tmms/src/base/TaskMgr.cpp",
+  "file": "/home/go1116/Desktop/tmms/src/base/TaskMgr.cpp"
+},
+{
+  "directory": "/home/go1116/Desktop/tmms/build/src/base",
+  "command": "/usr/bin/g++  -I/home/go1116/Desktop/tmms/src -Wno-error=unused-result -Werror=return-type  -std=c++11 -O0 -g -pipe -Wall -Werror -Wno-unused-variable -lrt -pthread -fno-strict-aliasing -Wno-error=shadow -Wno-sign-compare -g -o CMakeFiles/TestTask.dir/TTime.cpp.o -c /home/go1116/Desktop/tmms/src/base/TTime.cpp",
+  "file": "/home/go1116/Desktop/tmms/src/base/TTime.cpp"
+},
+{
+  "directory": "/home/go1116/Desktop/tmms/build/src/base",
+  "command": "/usr/bin/g++  -I/home/go1116/Desktop/tmms/src -Wno-error=unused-result -Werror=return-type  -std=c++11 -O0 -g -pipe -Wall -Werror -Wno-unused-variable -lrt -pthread -fno-strict-aliasing -Wno-error=shadow -Wno-sign-compare -g -o CMakeFiles/TestLog.dir/TestLog.cpp.o -c /home/go1116/Desktop/tmms/src/base/TestLog.cpp",
+  "file": "/home/go1116/Desktop/tmms/src/base/TestLog.cpp"
+},
+{
+  "directory": "/home/go1116/Desktop/tmms/build/src/base",
+  "command": "/usr/bin/g++  -I/home/go1116/Desktop/tmms/src -Wno-error=unused-result -Werror=return-type  -std=c++11 -O0 -g -pipe -Wall -Werror -Wno-unused-variable -lrt -pthread -fno-strict-aliasing -Wno-error=shadow -Wno-sign-compare -g -o CMakeFiles/TestLog.dir/Logger.cpp.o -c /home/go1116/Desktop/tmms/src/base/Logger.cpp",
+  "file": "/home/go1116/Desktop/tmms/src/base/Logger.cpp"
+}
+]
